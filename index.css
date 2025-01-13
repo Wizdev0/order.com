@@ -153,8 +153,11 @@ body{
     }
     
     .plan-h2{
-        display: flex;
-        justify-content: center;
+        position: relative;
+        top: 1px;
+        left: 40px;
+/*         display: flex;
+        justify-content: center; */
         font-size: 12px;
         margin-left: 4.5%;
         font-weight: 900;
