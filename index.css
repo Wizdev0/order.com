@@ -58,7 +58,45 @@ body{
     color: grey;
 }
 
+/* PLAN SECTION */
 .plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.plan-details{
+    display: flex;
+    align-items: center;
+}
+
+.plan-details img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.plan-details h2{
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.plan-details p{
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.plan a{
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+
+/* .plan{
     display: flex;
     background-color:hsl(225, 100%, 98%);
     padding: 15px;
@@ -87,7 +125,7 @@ body{
     font-size: 13px;
     font-weight: 600;
     color: grey;
-}
+} */
 
 .lnk-1{
     font-weight: 800;
@@ -151,20 +189,43 @@ body{
       margin-left: 5%;
        width: 90%;
     }
-    .plan-h2{
-        position: relative;
-        left: 30px;
-        font-size: 13px;
-        font-weight: 900;
+    
+    .plan{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:hsl(225, 100%, 98%);
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 20px;
     }
     
-    .plan-p{
-        position: relative;
-        top: 20px;
-        left: -40px;
-        font-size: 13px;
-        font-weight: 600;
-        color: grey;
+    .plan-details{
+        display: flex;
+        align-items: center;
     }
+    
+    .plan-details img{
+        width: 30px;
+        margin-right: 10px;
+    }
+    
+    .plan-details h2{
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 5px;
+    }
+    
+    .plan-details p{
+        font-size: 0.9rem;
+        color: #666;
+    }
+    
+    .plan a{
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    
+    
     
 }
