@@ -151,17 +151,11 @@ body{
       margin-left: 5%;
        width: 90%;
     }
-    
     .plan-h2{
         position: relative;
-        top: 1px;
-        left: 40px;
-        display: flex;
-        justify-content: center;
+        left: 30px;
         font-size: 13px;
-        margin-left: 4.5%;
         font-weight: 900;
-        width: 150%;
     }
     
     .plan-p{
