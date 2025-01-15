@@ -214,11 +214,13 @@ body{
         font-weight: 900;
         word-wrap: none;
         word-break: none;
+        margin-top: -10px;
     }
     
     .plan-p{
         position: relative;
-        top: 5px;
+        top: 15px;
+        left: 20px;
         font-size: 13px;
         font-weight: 600;
         color: grey;
