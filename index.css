@@ -246,3 +246,73 @@ body{
     
     
 }
+
+@media only screen  and (min-width:600px) and (max-width:768px) {
+    .desktop-only{
+        display: none;
+    }
+
+    .mobile-only{
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: -100;
+        top: 0;
+    }
+
+    .card{
+      margin-top: 10%;
+      margin-left: 5%;
+       width: 90%;
+       height: 90%;
+    }
+    
+    .plan{
+        display: flex;
+        align-items: center;
+        background-color:hsl(225, 100%, 98%);
+        padding: 25px;
+        font-family: 'Red Hat Display';
+        margin-bottom: 40px;
+        margin: 25px;
+        border-radius: 10px;
+    }
+    
+    .music-icon{
+        margin-left: 5px;
+    }
+    
+    .plan-h2{
+        position: absolute;
+        left: 22%;
+        font-size: 14px;
+        font-weight: 900;
+        word-wrap: none;
+        word-break: none;
+        margin-top: -10px;
+    }
+    
+    .plan-p{
+        position: relative;
+        top: 15px;
+        left: 20px;
+        font-size: 13px;
+        font-weight: 600;
+        color: grey;
+    }
+    
+    .lnk-1{
+        position: relative;
+        left: 70%;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4px;
+    }
+    
+    .lnk-1:hover{
+        opacity: 0.6;
+        cursor: pointer;
+    }
+}
