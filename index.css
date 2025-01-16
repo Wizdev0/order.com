@@ -122,8 +122,8 @@ body{
 
 .plan-p{
     position: relative;
-    top: 10px;
-    left: 20px;
+    top: 15px;
+    left: 10%;
     font-size: 13px;
     font-weight: 600;
     color: grey;
